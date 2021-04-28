@@ -8771,3 +8771,12 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+yzg-calendar@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/yzg-calendar/-/yzg-calendar-0.1.0.tgz#a5d673d0b5bb637cc89186d83f3987084557bc05"
+  integrity sha512-1f8s2S1NYd1RI86PtmF58WLIbjPTOB/RogcZQXd7b3dKclgVDYr0Oy3ZK6dilkSuPgEhpgOu/1X3U7XwJ8glkg==
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+    vue-router "^3.2.0"
