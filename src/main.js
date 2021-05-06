@@ -1,7 +1,7 @@
 /*
  * @Author: yinzhegang
  * @Date: 2021-04-27 16:20:25
- * @LastEditTime: 2021-04-28 17:23:27
+ * @LastEditTime: 2021-05-06 10:59:51
  * @LastEditors: yinzhegang
  * @Description:
  * @FilePath: /yzg-calendar/src/main.js
@@ -10,12 +10,18 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Vue from 'vue';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Calendar } from 'yzg-calendar';
+import ElementUI from 'element-ui';
 import App from './App.vue';
 import router from './router';
+import { Calendar } from './index';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.config.productionTip = false;
+
 Vue.use(Calendar);
+Vue.use(ElementUI);
+
 new Vue({
   router,
   render: (h) => h(App),
